@@ -1,0 +1,24 @@
+state={
+	id=811
+	name="STATE_811"
+	manpower=260485
+	state_category = small_island
+
+	history={
+		add_core_of = BRB
+		owner = BRB
+		buildings = {
+			infrastructure = 4
+			11350 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			11350 1
+		}
+	}
+	
+	provinces={
+		11350
+	}
+}

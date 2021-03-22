@@ -1,0 +1,23 @@
+state={
+	id=817
+	name="STATE_817"
+	provinces={
+		7371 7387
+	}
+	manpower=250851
+	state_category = rural
+	buildings_max_level_factor=1.000
+	history = {
+		owner = BRN
+		add_core_of = BRN
+		victory_points = {
+			7387 1
+		}
+		buildings = {
+			infrastructure = 3
+			7371 = {
+				naval_base = 2
+			}
+		}
+	}
+}

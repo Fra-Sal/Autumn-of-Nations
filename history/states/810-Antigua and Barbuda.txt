@@ -1,0 +1,14 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		13236
+	}
+	history={
+		owner = ATG
+		add_core_of = ATG
+	}
+	state_category = tiny_island
+	manpower=62000
+	buildings_max_level_factor=1.000
+}

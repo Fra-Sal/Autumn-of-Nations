@@ -1,0 +1,24 @@
+state={
+	id=814
+	name="STATE_814"
+	manpower=130485
+	state_category = small_island
+
+	history={
+		add_core_of = LCA
+		owner = LCA
+		buildings = {
+			infrastructure = 4
+			13009 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			13009 1
+		}
+	}
+	
+	provinces={
+		13009
+	}
+}

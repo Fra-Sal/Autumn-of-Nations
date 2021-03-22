@@ -1,0 +1,18 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		7107 1086
+	}
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = ISR
+		victory_points = {
+			1086 5 
+		}
+	}
+	state_category = rural
+	manpower=0
+	buildings_max_level_factor=1.000
+}
