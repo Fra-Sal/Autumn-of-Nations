@@ -1,0 +1,58 @@
+spriteTypes = {
+
+	## Parliament
+	# Button
+	spriteType = {
+		name = "GFX_parliament_button_bg"
+		texturefile = "gfx/interface/politics/GFX_politics_button.dds"
+	}
+
+	# Background
+	spriteType = {
+		name = "GFX_parliament_bg"
+		texturefile = "gfx/interface/parliament/GFX_parliament_background.dds"
+	}
+
+	# Close button
+	spriteType = {
+		name = "GFX_close_button_parliament_small"
+		textureFile = "gfx/interface/closebutton_small.dds"
+	}
+
+	# Chamber container
+	spriteType = {
+		name = "GFX_chamber_container"
+		textureFile = "gfx/interface/parliament/GFX_parliament_chamber_container.dds"
+	}
+
+	### USA
+	## Senate
+	spriteType = {
+		name = "GFX_USA_Senate"
+		textureFile = "gfx/interface/parliament/USA/USA_Senate.dds"
+		noOfFrames = 2
+	}
+	## House
+	spriteType = {
+		name = "GFX_USA_House"
+		textureFile = "gfx/interface/parliament/USA/USA_House.dds"
+		noOfFrames = 2
+	}
+	## Parties
+	# Democratic Party
+	spriteType = {
+		name = "GFX_USA_Dem_party"
+		textureFile = "gfx/interface/parliament/USA/USA_Dem_party.dds"
+	}
+	# Republican Party
+	spriteType = {
+		name = "GFX_USA_Rep_party"
+		textureFile = "gfx/interface/parliament/USA/USA_Rep_party.dds"
+	}
+	# Independent
+	spriteType = {
+		name = "GFX_USA_Ind_party"
+		textureFile = "gfx/interface/parliament/USA/USA_Ind_party.dds"
+	}
+
+}

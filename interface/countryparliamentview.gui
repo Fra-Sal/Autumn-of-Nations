@@ -1,0 +1,322 @@
+guiTypes = {
+
+	## Button in Country Politcs View
+	containerWindowType = {
+		name = "parliament_container"
+		position = { x = 335 y = 296 }
+		size = { width = 205 height = 80 }
+		margin = { top = 6 left = 0 bottom = 5 right = 0}
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_bg_1_scrollbar"
+		}
+
+		buttonType = {
+			name = "parliament_button"
+			position = { x = 18 y = 13 }
+			orientation = UPPER_LEFT
+			spriteType = "GFX_parliament_button_bg"
+			pdx_tooltip = PARLIAMENT_BUTTON_TT
+			scale = 0.5
+		}
+
+		instantTextboxType = {
+			name = "parliament_button_title"
+			position = { x = 75 y = 23 }
+			font = "hoi_26mbs"
+			borderSize = {x = 0 y = 0}
+			text = "PARLIAMENT_BUTTON"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+	## Parliament main view
+	containerWindowType = {
+		name = "parliament_gui"
+		position = { x=150 y=0 }
+		size = { width = 800 height = 650 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		show_sound = open_sub_window
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_parliament_bg"
+		}
+
+		## Close button
+		buttonType = {
+			name = "close_button_parliament"
+			position = { x = -40 y = 15 }
+			quadTextureSprite ="GFX_close_button_parliament_small"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		## Title
+		instantTextboxType = {
+			name = "title_senate"
+			position = { x = 320 y = 20 }
+			font = "hoi_36header"
+			text = "PARLIAMENT_TITLE"
+			maxWidth = 200
+			maxHeight = 20
+			alwaystransparent = yes
+		}
+
+		## Senate
+		containerWindowType = {
+			name = "senate_gui_container"
+			position = { x = 40 y = 80 }
+			size = { width = 600 height = 600 }
+
+			iconType = {
+				name = "GFX_chamber_gui_container"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_chamber_container"
+			}
+
+			instantTextboxType = {
+				name = "title_senate"
+				position = { x = 160 y = 5 }
+				font = "hoi_36header"
+				text = "PARLIAMENT_SENATE"
+				maxWidth = 200
+				maxHeight = 20
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "usa_senate_gui"
+				position = { x = 20 y = 50 }
+				quadTextureSprite ="GFX_USA_Senate"
+				frame = 1
+			}
+
+			instantTextboxType = {
+				name = "num_senate"
+				position = { x = 175 y = 180 }
+				font = "hoi_36header"
+				text = "PARLIAMENT_NUM_SENATE"
+				maxWidth = 200
+				maxHeight = 20
+				alwaystransparent = yes
+			}
+
+			# Parties
+			containerWindowType = {
+				name = "parties_senate_gui_container"
+				position = { x = 420 y = -25 }
+				size = { width = 50 height = 50 }
+
+				instantTextboxType = {
+					name = "senate_parties"
+					position = { x = 0 y = 30 }
+					font = "hoi_26mbs"
+					text = "PARLIAMENT_PARTIES"
+					maxWidth = 200
+					maxHeight = 20
+				}
+				
+				containerWindowType = {
+					name = "usa_senate_parties_gui_container"
+					position = { x = 0 y = 60 }
+					
+					## USA
+					# Democratic Party
+					containerWindowType = {
+						name = "usa_senate_dem_party_gui_container"
+						position = { x = 0 y = 0 }
+
+						iconType = {
+							name = "dem_party_color"
+							position = { x = 0 y = 3 }
+							quadTextureSprite ="GFX_USA_Dem_party"
+						}
+			
+						instantTextboxType = {
+							name = "dem_party_senate_desc"
+							position = { x = 20 y = 0 }
+							font = "hoi_22typewriter"
+							text = "PARLIAMENT_USA_SENATE_DEM_PARTY"
+							maxWidth = 280
+						}
+					}
+					# Republican Party	
+					containerWindowType = {
+						name = "usa_senate_rep_party_gui_container"
+						position = { x = 0 y = 50 }
+						
+						iconType = {
+							name = "rep_party_color"
+							position = { x = 0 y = 3 }
+							quadTextureSprite ="GFX_USA_Rep_party"
+						}
+			
+						instantTextboxType = {
+							name = "rep_party_senate_desc"
+							position = { x = 20 y = 0 }
+							font = "hoi_22typewriter"
+							text = "PARLIAMENT_USA_SENATE_REP_PARTY"
+							maxWidth = 280
+						}
+					}
+					# Independent	
+					containerWindowType = {
+						name = "usa_senate_ind_gui_container"
+						position = { x = 0 y = 100 }
+						
+						iconType = {
+							name = "ind_color"
+							position = { x = 0 y = 3 }
+							quadTextureSprite ="GFX_USA_Ind_party"
+						}
+			
+						instantTextboxType = {
+							name = "ind_senate_desc"
+							position = { x = 20 y = 0 }
+							font = "hoi_22typewriter"
+							text = "PARLIAMENT_USA_SENATE_INDEPENDENT"
+							maxWidth = 280
+						}
+					}
+				}
+			} # End parties
+		}
+
+		## House
+		containerWindowType = {
+			name = "house_gui_container"
+			position = { x=40 y=380 }
+			size = { width = 600 height = 600 }
+
+			iconType = {
+				name = "GFX_chamber_gui_container"
+				position = { x = 0 y = 0 }
+				quadTextureSprite ="GFX_chamber_container"
+			}
+
+			instantTextboxType = {
+				name = "title_house"
+				position = { x = 160 y = 5 }
+				font = "hoi_36header"
+				text = "PARLIAMENT_HOUSE"
+				maxWidth = 200
+				maxHeight = 20
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "usa_house_gui"
+				position = { x = 20 y = 50 }
+				quadTextureSprite ="GFX_USA_House"
+				frame = 1
+			}
+
+			instantTextboxType = {
+				name = "num_house"
+				position = { x = 175 y = 180 }
+				font = "hoi_36header"
+				text = "PARLIAMENT_NUM_HOUSE"
+				maxWidth = 200
+				maxHeight = 20
+				alwaystransparent = yes
+			}
+
+			# Parties
+			containerWindowType = {
+				name = "parties_house_gui_container"
+				position = { x = 420 y = -25 }
+				size = { width = 50 height = 50 }
+
+				instantTextboxType = {
+					name = "house_parties"
+					position = { x = 0 y = 30 }
+					font = "hoi_26mbs"
+					text = "PARLIAMENT_PARTIES"
+					maxWidth = 200
+					maxHeight = 20
+				}
+				
+				containerWindowType = {
+					name = "usa_house_parties_gui_container"
+					position = { x = 0 y = 60 }
+					
+					## USA
+					# Democratic Party
+					containerWindowType = {
+						name = "usa_house_dem_party_gui_container"
+						position = { x = 0 y = 0 }
+
+						iconType = {
+							name = "dem_party_color"
+							position = { x = 0 y = 3 }
+							quadTextureSprite ="GFX_USA_Dem_party"
+						}
+			
+						instantTextboxType = {
+							name = "dem_party_house_desc"
+							position = { x = 20 y = 0 }
+							font = "hoi_22typewriter"
+							text = "PARLIAMENT_USA_HOUSE_DEM_PARTY"
+							maxWidth = 280
+						}
+					}
+					# Republican Party	
+					containerWindowType = {
+						name = "usa_house_rep_party_gui_container"
+						position = { x = 0 y = 60 }
+						
+						iconType = {
+							name = "rep_party_color"
+							position = { x = 0 y = 3 }
+							quadTextureSprite ="GFX_USA_Rep_party"
+						}
+			
+						instantTextboxType = {
+							name = "rep_party_house_desc"
+							position = { x = 20 y = 0 }
+							font = "hoi_22typewriter"
+							text = "PARLIAMENT_USA_HOUSE_REP_PARTY"
+							maxWidth = 280
+						}
+					}
+					# Independent	
+					containerWindowType = {
+						name = "usa_house_ind_gui_container"
+						position = { x = 0 y = 100 }
+						
+						iconType = {
+							name = "ind_color"
+							position = { x = 0 y = 3 }
+							quadTextureSprite ="GFX_USA_Ind_party"
+						}
+			
+						instantTextboxType = {
+							name = "ind_house_desc"
+							position = { x = 20 y = 0 }
+							font = "hoi_22typewriter"
+							text = "PARLIAMENT_USA_HOUSE_INDEPENDENT"
+							maxWidth = 280
+						}
+					}
+				}
+			} # End parties
+		}
+	}
+}
