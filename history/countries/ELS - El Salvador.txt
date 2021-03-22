@@ -1,0 +1,78 @@
+﻿capital = 314
+
+#oob = "ELS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+add_political_power = 0
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1984.6.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 50
+	communism = 50
+}
+
+create_country_leader = {
+	name = "José Napoleón Duarte"
+	picture = "GFX_portrait_ELS_jose_napoleon_duarte.dds"
+	expire = "1990.1.23"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Schafik Hándal"
+	expire = "2006.1.24"
+	ideology = marxism
+}
+
+1989.6.2 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1989.6.1"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 50
+		communism = 50
+	}
+	
+	create_country_leader = {
+		name = "Alfredo Cristiani"
+		picture = "GFX_portrait_ELS_alfredo_cristiani.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+	}
+}
+
+1994.6.2 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1994.6.1"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 62
+		communism = 32
+	}
+	
+	create_country_leader = {
+		name = "Armando Calderón Sol"
+		picture = "GFX_portrait_ELS_armando_calderon.dds"
+		expire = "2017.10.9"
+		ideology = conservatism
+	}
+}

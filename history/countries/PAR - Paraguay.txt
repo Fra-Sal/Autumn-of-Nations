@@ -1,0 +1,147 @@
+﻿capital = 301
+
+#oob = "PAR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+#set_country_flag = monroe_doctrine
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#	
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = construction_effort_2
+#	complete_national_focus = production_effort_2
+#	complete_national_focus = infrastructure_effort
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#	
+#	oob = "PAR_1939"
+#	set_technology = {
+#		CAS1 = 1
+#		interwar_artillery = 1
+#		interwar_antiair = 1
+#		infantry_weapons1 = 1
+#		infantry_weapons2 = 1
+#		support_weapons = 1
+#
+#		#doctrines
+#		air_superiority = 1
+#		grand_battle_plan = 1
+#		trench_warfare = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		fuel_silos = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#	}
+#}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1988.8.15"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Alfredo Stroessner"
+	picture = "GFX_portrait_PAR_alfredo_stroessner.dds"
+	expire = "2006.8.16"
+	ideology = conservatism
+	#traits = {
+		#
+	#}
+}
+
+1989.2.3 = {
+	create_country_leader = {
+		name = "Andrés Rodríguez"
+		picture = "GFX_portrait_PAR_andres_rodriguez.dds"
+		expire = "1997.4.21"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1993.8.16 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1993.8.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	
+	create_country_leader = {
+		name = "Juan Carlos Wasmosy"
+		picture = "GFX_portrait_PAR_juan_wasmosy.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1998.8.16 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1998.8.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	
+	create_country_leader = {
+		name = "Raúl Cubas Grau"
+		picture = "GFX_portrait_PAR_raul_cubas.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1999.3.28 = {
+	create_country_leader = {
+		name = "Luis Ángel González Macchi"
+		picture = "GFX_portrait_PAR_luiz_gonzales.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}	
+}

@@ -1,0 +1,89 @@
+capital = 101
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1987.5.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Jonathan Motzfeldt"
+	picture = "GFX_portrait_GRL_jonathan_motzfeldt.dds"
+	expire = "2010.10.28"
+	ideology = socialism
+}
+
+1991.3.19 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1991.3.18"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	
+	create_country_leader = {
+		name = "Lars-Emil Johansen"
+		picture = "GFX_portrait_GRL_larsemil_johansen.dds"
+		expire = "2050.1.1"
+		ideology = socialism
+	}	
+}
+
+1995.3.5 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1995.3.4"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+1997.9.19 = {
+	create_country_leader = {
+		name = "Jonathan Motzfeldt"
+		picture = "GFX_portrait_GRL_jonathan_motzfeldt.dds"
+		expire = "2010.10.28"
+		ideology = socialism
+	}	
+}
+
+1999.2.17 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1999.2.16"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}

@@ -1,0 +1,200 @@
+﻿capital = 307
+
+#oob = "VEN_1936"
+
+# Starting tech
+#set_technology = {
+#	infantry_weapons = 1
+#	gw_artillery = 1
+#	early_fighter = 1
+#	fuel_silos = 1
+#	fuel_refining = 1
+#}
+#set_country_flag = monroe_doctrine
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#	
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = naval_effort
+#	complete_national_focus = flexible_navy
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#	
+#	oob = "VEN_1939"
+#	set_technology = {
+#		interwar_artillery = 1
+#		infantry_weapons1 = 1
+#		infantry_weapons2 = 1
+#		support_weapons = 1
+#
+#		#doctrines
+#		air_superiority = 1
+#		grand_battle_plan = 1
+#		trench_warfare = 1
+#		fleet_in_being = 1
+#		battlefleet_concentration = 1
+#		convoy_sailing = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		fuel_refining2 = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#	}
+#}
+
+set_convoys = 10
+set_politics = {
+	ruling_party = democratic
+	last_election = "1984.2.2"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 91
+	communism = 9
+}
+
+create_country_leader = {
+	name = "Jaime Lusinchi"
+	picture = "GFX_portrait_VEN_jaime_lusinchi.dds"
+	expire = "2014.5.21"
+	ideology = socialism
+	#traits = {
+		#
+	#}
+}
+
+create_country_leader = {
+	name = "Teodoro Petkoff"
+	expire = "2018.10.31"
+	ideology = marxism
+	#traits = {
+		#
+	#}
+}
+
+1989.2.3 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1989.2.2"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 85
+		communism = 15
+	}
+	
+	create_country_leader = {
+		name = "Carlos Andrés Pérez"
+		picture = "GFX_portrait_VEN_carlos_andres_perez.dds"
+		expire = "2010.12.25"
+		ideology = socialism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1993.5.21 = {
+	create_country_leader = {
+		name = "Octavio Lepage"
+		picture = "GFX_portrait_VEN_octavio_lepage.dds"
+		expire = "2017.1.6"
+		ideology = socialism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1993.6.5 = {
+	create_country_leader = {
+		name = "Ramón José Velásquez"
+		picture = "GFX_portrait_VEN_ramon_velasquez.dds"
+		expire = "2014.6.24"
+		ideology = socialism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1994.2.3 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = VEN_DEMOCRATIC_1994
+		name = VEN_DEMOCRATIC_1994
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1994.2.2"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 90
+		communism = 10
+	}
+	
+	create_country_leader = {
+		name = "Rafael Caldera"
+		picture = "GFX_portrait_VEN_rafael_caldera.dds"
+		expire = "2009.12.24"
+		ideology = centrism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1999.2.3 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = VEN_DEMOCRATIC_1999
+		name = VEN_DEMOCRATIC_1999
+	}
+	set_party_name = {
+		ideology = communism
+		long_name = VEN_COMMUNISM_1999
+		name = VEN_COMMUNISM_1999s
+	}
+	set_politics = {
+		ruling_party = communism
+		last_election = "1999.2.2"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 44
+		communism = 56
+	}
+	
+	create_country_leader = {
+		name = "Hugo Chávez"
+		picture = "GFX_portrait_VEN_hugo_chavez.dds"
+		expire = "2013.3.5"
+		ideology = bolivarianism
+		#traits = {
+			#
+		#}
+	}
+}

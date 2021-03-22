@@ -1,0 +1,147 @@
+﻿capital = 317
+
+#oob = "NIC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#	
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = naval_effort
+#	complete_national_focus = flexible_navy
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#	
+#	oob = "NIC_1939"
+#	set_technology = {
+#		interwar_artillery = 1
+#		infantry_weapons1 = 1
+#		support_weapons = 1
+#
+		#doctrines
+#		air_superiority = 1
+#		grand_battle_plan = 1
+#		trench_warfare = 1
+#		fleet_in_being = 1
+#		battlefleet_concentration = 1
+#		convoy_sailing = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		fuel_silos = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#	}
+#}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1985.1.10"
+	election_frequency = 65
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 33
+	communism = 67
+}
+
+create_country_leader = {
+	name = "Daniel Ortega"
+	picture = "GFX_portrait_NIC_Daniel_Ortega.dds"
+	expire = "2050.1.1"
+	ideology = marxism
+	#traits = {
+		#
+	#}
+}
+
+create_country_leader = {
+	name = "Clemente Guido Chávez"
+	expire = "1990.3.4"
+	ideology = conservatism
+	#traits = {
+		#
+	#}
+}
+
+1990.4.26 = {
+	set_party_name = { 
+		ideology = democratic 
+		long_name = NIC_DEMOCRATIC_PARTY_1990
+		name = NIC_DEMOCRATIC_PARTY_1990
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1990.2.25"
+		election_frequency = 81
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 57
+		communism = 43
+	}
+	
+	create_country_leader = {
+		name = "Violeta Chamorro"
+		picture = "GFX_portrait_NIC_violeta_chamorro.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1997.1.11 = {
+	set_party_name = { 
+		ideology = democratic 
+		long_name = NIC_DEMOCRATIC_PARTY_1997
+		name = NIC_DEMOCRATIC_PARTY_1997
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1997.1.10"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 62
+		communism = 38
+	}
+	
+	create_country_leader = {
+		name = "Arnoldo Alemán"
+		picture = "GFX_portrait_NIC_arnoldo_aleman.dds"
+		expire = "2050.1.1"
+		ideology = liberalism
+		#traits = {
+			#
+		#}
+	}
+}

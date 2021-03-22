@@ -1,0 +1,32 @@
+﻿capital = 633
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1987.11.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+}
+
+create_country_leader = {
+	name = "Amata Kabua"
+	expire = "1996.12.20"
+	#desc = ""
+	#picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = liberalism
+}

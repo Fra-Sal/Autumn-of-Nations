@@ -1,0 +1,182 @@
+﻿capital = 305
+
+#oob = "ECU_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	fuel_silos = 1
+}
+#set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#	
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = naval_effort
+#	complete_national_focus = flexible_navy
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#	
+#	oob = "ECU_1939"
+#	set_technology = {
+#		gw_artillery = 1
+#		infantry_weapons1 = 1
+#		infantry_weapons2 = 1
+#		support_weapons = 1
+#
+#		#doctrines
+#		air_superiority = 1
+#		grand_battle_plan = 1
+#		trench_warfare = 1
+#		fleet_in_being = 1
+#		battlefleet_concentration = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#	}
+#}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1988.8.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Rodrigo Borja Cevallos"
+	picture = "GFX_Portrait_ECU_rodrigo_borja_cevallos.dds"
+	expire = "2050.1.1"
+	ideology = socialism
+	#traits = {
+		#
+	#}
+}
+
+1992.8.11 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = ECU_DEMOCRATIC_1992
+		name = ECU_DEMOCRATIC_1992
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1992.8.10"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Sixto Durán Ballén"
+		picture = "GFX_portrait_ECU_sixto_duran_ballen.dds"
+		expire = "2016.11.15"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1996.8.11 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = ECU_DEMOCRATIC_1996
+		name = ECU_DEMOCRATIC_1996
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1996.8.10"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Abdalá Bucaram"
+		picture = "GFX_portrait_ECU_abdala_bucaram.dds"
+		expire = "2050.1.1"
+		ideology = populism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1997.2.6 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = ECU_DEMOCRATIC_1997
+		name = ECU_DEMOCRATIC_1997
+	}
+	create_country_leader = {
+		name = "Rosalía Arteaga"
+		picture = "GFX_portrait_ECU_rosalia_arteaga.dds"
+		expire = "2050.1.1"
+		ideology = populism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1997.2.11 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = ECU_DEMOCRATIC_1997_2
+		name = ECU_DEMOCRATIC_1997_2
+	}
+	create_country_leader = {
+		name = "Fabián Alarcón"
+		picture = "GFX_portrait_ECU_fabian_alarcon.dds"
+		expire = "2050.1.1"
+		ideology = liberalism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1998.8.11 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = ECU_DEMOCRATIC_1998
+		name = ECU_DEMOCRATIC_1998
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1998.8.10"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	create_country_leader = {
+		name = "Jamil Mahuad"
+		picture = "GFX_portrait_ECU_jamil_mahuad.dds"
+		expire = "2050.1.1"
+		ideology = centrism
+		#traits = {
+			#
+		#}
+	}
+}

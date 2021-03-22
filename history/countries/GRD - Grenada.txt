@@ -1,0 +1,133 @@
+capital = 812
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1984.12.4"
+	election_frequency = 64
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Herbert Blaize"
+	picture = "GFX_Portrait_GRD_herbert_blaize.dds"
+	expire = "1989.12.19"
+	ideology = conservatism
+	#traits = {
+	#
+	#}
+}
+
+1989.12.20 = {
+	create_country_leader = {
+		name = "Ben Jones"
+		picture = "GFX_Portrait_GRD_ben_jones.dds"
+		expire = "2005.2.10"
+		ideology = conservatism
+		#traits = {
+		#
+		#}
+	}	
+}
+
+1990.3.13 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1990.3.13"
+		election_frequency = 64
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+	set_party_name = {
+		ideology = democratic
+		long_name = GRD_DEMOCRATIC_1990
+		name = GRD_DEMOCRATIC_1990
+	}
+
+	create_country_leader = {
+		name = "Nicholas Brathwaite"
+		picture = "GFX_Portrait_GRD_nicholas_brathwaite.dds"
+		expire = "2016.10.28"
+		ideology = socialism
+		#traits = {
+		#
+		#}
+	}	
+	
+}
+
+1995.2.2 = {
+	create_country_leader = {
+		name = "George Brizan"
+		picture = "GFX_Portrait_GRD_george_brizan.dds"
+		expire = "2018.2.18"
+		ideology = socialism
+		#traits = {
+		#
+		#}
+	}	
+}
+
+1995.6.22 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1995.6.20"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+	set_party_name = {
+		ideology = democratic
+		long_name = GRD_DEMOCRATIC_1995
+		name = GRD_DEMOCRATIC_1995
+	}
+
+	create_country_leader = {
+		name = "Keith Mitchell"
+		picture = "GFX_Portrait_GRD_keith_mitchell.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+		#
+		#}
+	}
+}
+
+1999.1.19 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1999.1.18"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}

@@ -1,0 +1,88 @@
+capital = 814
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1987.4.30"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "John Compton"
+	picture = "GFX_Portrait_LCA_john_compton.dds"
+	expire = "2007.9.7"
+	ideology = conservatism
+	#traits = {
+	#
+	#}
+}
+
+1992.4.28 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1992.4.27"
+		election_frequency = 61
+		elections_allowed = yes
+	}
+}
+
+1996.4.2 = {
+	create_country_leader = {
+		name = "Vaughan Lewis"
+		picture = "GFX_Portrait_LCA_vaughan_lewis.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+		#
+		#}
+	}	
+}
+
+1997.5.24 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = LCA_DEMOCRATIC_1997
+		name = LCA_DEMOCRATIC_1997
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1997.5.23"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+	create_country_leader = {
+		name = "Kenny Anthony"
+		picture = "GFX_Portrait_LCA_kenny_anthony.dds"
+		expire = "2050.1.1"
+		ideology = socialism
+		#traits = {
+		#
+		#}
+	}
+}

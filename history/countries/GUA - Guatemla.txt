@@ -1,0 +1,170 @@
+﻿capital = 313
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+#set_country_flag = monroe_doctrine
+set_stability = 0.5
+set_war_support = 0.1
+set_convoys = 5
+add_political_power = 0
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = naval_effort
+#	complete_national_focus = flexible_navy
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#
+#	oob = "GUA_1939"
+#	set_technology = {
+#		infantry_weapons1 = 1
+#
+#		#doctrines
+#		air_superiority = 1
+#		mass_assault = 1
+#		pocket_defence = 1
+#		defence_in_depth = 1
+#		fleet_in_being = 1
+#		battlefleet_concentration = 1
+#		convoy_sailing = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		fuel_silos = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#	}
+#}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1986.1.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+  democratic = 100
+}
+
+create_country_leader = {
+	name = "Vinicio Cereso"
+	picture = "Portrait_GUA_Vinicio_Cerezo.dds"
+	expire = "2050.1.1"
+	ideology = liberalism
+	#traits = {
+		#
+	#}
+}
+
+1991.1.15 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = GUA_DEMOCRATIC_1991
+		name = GUA_DEMOCRATIC_1991
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1991.1.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	
+	set_popularities = {
+	  democratic = 100
+	}
+
+	create_country_leader = {
+		name = "Jorge Serrano Elías"
+		picture = "Portrait_GUA_jorge_serrano_elias.dds"
+		expire = "2050.1.1"
+		ideology = liberalism
+		#traits = {
+			#
+		#}
+	}
+
+}
+
+1993.6.1 = {
+	create_country_leader = {
+		name = "Gustavo Adolfo Espina Salguero"
+		picture = "GFX_portrait_GUA_gustavo_espina.dds"
+		expire = "2050.1.1"
+		ideology = liberalism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1993.6.6 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = GUA_DEMOCRATIC_1993
+		name = GUA_DEMOCRATIC_1993
+	}
+
+	create_country_leader = {
+		name = "Ramiro de León Carpio"
+		picture = "GFX_portrait_GUA_ramiro_leon.dds"
+		expire = "2002.4.16"
+		ideology = liberalism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1996.1.15 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = GUA_DEMOCRATIC_1996
+		name = GUA_DEMOCRATIC_1996
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1996.1.14"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	
+	set_popularities = {
+	  democratic = 100
+	}
+
+	create_country_leader = {
+		name = "Álvaro Arzú"
+		picture = "GFX_portrait_GUA_alvaro_arzu.dds"
+		expire = "2018.4.27"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}	
+}

@@ -1,0 +1,172 @@
+﻿capital = 318
+
+#oob = "HAI_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+#set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#	
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = naval_effort
+#	complete_national_focus = flexible_navy
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#	
+#	oob = "HAI_1939"
+#	set_technology = {
+#		infantry_weapons1 = 1
+#
+#		#doctrines
+#		air_superiority = 1
+#		
+#		mass_assault = 1
+#		pocket_defence = 1
+#		defence_in_depth = 1
+#
+#		fleet_in_being = 1
+#		battlefleet_concentration = 1
+#		convoy_sailing = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		fuel_silos = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#	}
+#}
+
+set_politics = {
+	ruling_party = neutrality
+	#last_election = "1988.1.17"
+	#election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Prosper Avril"
+	picture = "GFX_portrait_HAI_prosper_avril.dds"
+	expire = "2050.1.1"
+	ideology = despotism
+	#traits = {
+		#
+	#}
+}
+
+1991.2.8 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1991.1.20"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 95
+		communism = 5
+	}
+	
+	create_country_leader = {
+		name = "Jean-Bertrand Aristide"
+		picture = "GFX_portrait_HAI_jean_aristide.dds"
+		expire = "2050.1.1"
+		ideology = socialism
+		#traits = {
+			#
+		#}
+	}
+
+	create_country_leader = {
+		name = "René Théodore"
+		expire = "2050.1.1"
+		ideology = marxism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1991.9.29 = {
+	set_politics = {
+		ruling_party = neutrality
+		#last_election = "1991.1.20"
+		#election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+	
+	create_country_leader = {
+		name = "Raoul Cédras"
+		picture = "GFX_portrait_HAI_raoul_cedras.dds"
+		expire = "2050.1.1"
+		ideology = despotism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1994.10.13 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1994.10.12"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+1995.2.8 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = HAI_DEMOCRATIC_1995
+		name = HAI_DEMOCRATIC_1995
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1995.2.7"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+	create_country_leader = {
+		name = "René Préval"
+		picture = "GFX_portrait_HAI_rene_preval.dds"
+		expire = "2017.3.3"
+		ideology = socialism
+		#traits = {
+			#
+		#}
+	}
+}

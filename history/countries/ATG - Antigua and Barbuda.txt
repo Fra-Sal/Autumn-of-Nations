@@ -1,0 +1,74 @@
+capital = 810
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1984.4.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+
+create_country_leader = {
+	name = "Vere Bird"
+	picture = "GFX_Portrait_ATG_vere_bird.dds"
+	expire = "1999.6.28"
+	ideology = socialism
+	#traits = {
+	#
+	#}
+}
+
+1989.3.10 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1989.3.9"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}	
+}
+
+1994.3.10 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1994.3.9"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+	
+	create_country_leader = {
+		name = "Lester Bird"
+		picture = "GFX_Portrait_ATG_lester_bird.dds"
+		expire = "2050.1.1"
+		ideology = socialism
+		#traits = {
+		#
+		#}
+	}	
+}

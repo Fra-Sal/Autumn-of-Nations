@@ -1,0 +1,193 @@
+﻿capital = 113
+
+#oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	fuel_silos = 1
+}
+
+set_convoys = 10
+
+#1939.1.1 = {
+#
+#	add_political_power = 1198
+#	
+#	#generic focuses
+#	complete_national_focus = army_effort
+#	complete_national_focus = equipment_effort
+#	complete_national_focus = motorization_effort
+#	complete_national_focus = aviation_effort
+#	complete_national_focus = naval_effort
+#	complete_national_focus = large_navy
+#	complete_national_focus = industrial_effort
+#	complete_national_focus = construction_effort
+#	complete_national_focus = production_effort
+#	
+#	oob = "IRE_1939"
+#	set_technology = {
+#		gw_artillery = 1
+#		interwar_antiair = 1
+#		infantry_weapons2 = 1
+#
+#		#doctrines
+#		air_superiority = 1
+#		grand_battle_plan = 1
+#		trench_warfare = 1
+#		fleet_in_being = 1
+#		battlefleet_concentration = 1
+#		convoy_sailing = 1
+#
+#		#electronics
+#		electronic_mechanical_engineering = 1
+#		radio = 1
+#		radio_detection = 1
+#		mechanical_computing = 1
+#		computing_machine = 1
+#
+#		#industry
+#		basic_machine_tools = 1
+#		improved_machine_tools = 1
+#		advanced_machine_tools = 1
+#		construction1 = 1
+#		construction2 = 1
+#		dispersed_industry = 1
+#		dispersed_industry2 = 1
+#		fuel_refining = 1
+#	}
+#}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1987.3.10"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	communism = 4
+}
+
+create_country_leader = {
+	name = "Charles Haughey"
+	picture = "GFX_Portrait_IRE_charles_haughey.dds"
+	expire = "2006.6.13"
+	ideology = conservatism
+	#traits = {
+		#
+	#}
+}
+
+create_country_leader = {
+	name = "Tomás Mac Giolla"
+	expire = "2010.2.4"
+	ideology = marxism
+	#traits = {
+		#
+	#}
+}
+
+1989.6.16 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1989.6.15"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 95
+		communism = 5
+	}
+
+	create_country_leader = {
+		name = "Proinsias De Rossa"
+		expire = "2050.1.1"
+		ideology = marxism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1992.2.11 = {
+	create_country_leader = {
+		name = "Albert Reynolds"
+		picture = "GFX_Portrait_IRE_albert_reynolds.dds"
+		expire = "2014.8.21"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+1992.11.26 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1992.11.25"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+}
+
+1994.12.15 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = IRE_DEMOCRATIC_1994
+		name = IRE_DEMOCRATIC_1994
+	}
+
+	create_country_leader = {
+		name = "John Bruton"
+		picture = "GFX_Portrait_IRE_john_bruton.dds"
+		expire = "2050.1.1"
+		ideology = christian_democracy
+		#traits = {
+			#
+		#}
+	}
+}
+
+1997.6.7 = {
+	set_party_name = {
+		ideology = democratic
+		long_name = IRE_DEMOCRATIC_1997
+		name = IRE_DEMOCRATIC_1997
+	}
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1997.6.6"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+	create_country_leader = {
+		name = "Bertie Ahern"
+		picture = "GFX_Portrait_IRE_bertie_ahern.dds"
+		expire = "2050.1.1"
+		ideology = conservatism
+		#traits = {
+			#
+		#}
+	}
+}
+
+#create_corps_commander = {
+#	name = "Michael Costello"
+#	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+#	traits = {  }
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 1
+#	logistics_skill = 2
+#}
