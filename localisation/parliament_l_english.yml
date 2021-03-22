@@ -1,0 +1,16 @@
+﻿l_english:
+ PARLIAMENT_BUTTON:0 "PARLIAMENT"
+ PARLIAMENT_BUTTON_TT:0 "§GClick to see the situation of the Parliament§!"
+ PARLIAMENT_TITLE:0 "PARLIAMENT"
+ PARLIAMENT_SENATE:0 "SENATE"
+ PARLIAMENT_HOUSE:0 "HOUSE"
+ PARLIAMENT_NUM_SENATE:0 "[?senate]"
+ PARLIAMENT_NUM_HOUSE:0 "[?house]"
+ PARLIAMENT_PARTIES:0 "PARTIES:"
+ # USA
+ PARLIAMENT_USA_SENATE_DEM_PARTY:0 "Democratic Party has [?dem_senate] Senators\n(Centrist, Liberal, Progressist)"
+ PARLIAMENT_USA_SENATE_REP_PARTY:0 "Republican Party has [?rep_senate] Senators\n(Center-right, Conservatist)"
+ PARLIAMENT_USA_SENATE_INDEPENDENT:0 "Independents are [?ind_senate]"
+ PARLIAMENT_USA_HOUSE_DEM_PARTY:0 "Democratic Party has [?dem_house] Representatives\n(Centrist, Liberal, Progressist)"
+ PARLIAMENT_USA_HOUSE_REP_PARTY:0 "Republican Party has [?rep_house] Representatives\n(Center-right, Conservatist)"
+ PARLIAMENT_USA_HOUSE_INDEPENDENT:0 "Independents are [?ind_house]"
