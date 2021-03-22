@@ -1,0 +1,177 @@
+scripted_gui = {
+
+	parliament_button_scripted_gui	= {
+		window_name = "parliament_container"
+		context_type = player_context
+		parent_window_token = politics_tab
+		triggers = {
+			parliament_button_visible = {
+				tag = USA
+			}
+			parliament_button_title_visible = {
+				tag = USA
+			}
+		}
+		effects = {
+			parliament_button_click = {
+				IF = {
+					LIMIT = {
+						has_country_flag = open_parliament_gui
+					}
+					clr_country_flag = open_parliament_gui
+				}
+				ELSE = {
+					set_country_flag = open_parliament_gui
+				}
+			}
+		}
+	}
+
+	parliament_scripted_gui = {
+		window_name = "parliament_gui"
+		context_type = player_context
+		visible = {
+			has_country_flag = open_parliament_gui
+		}
+		triggers = {
+			# USA
+			usa_senate_gui_visible = {
+				tag = USA
+			}
+			dem_party_color_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = dem_senate
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			dem_party_senate_desc_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = dem_senate
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			rep_party_color_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = rep_senate
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			rep_party_senate_desc_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = rep_senate
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			ind_color_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = ind_senate
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			ind_senate_desc_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = ind_senate
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			usa_house_gui_visible = {
+				tag = USA
+			}
+			dem_party_color_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = dem_house
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			dem_party_house_desc_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = dem_house
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			rep_party_color_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = rep_house
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			rep_party_house_desc_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = rep_house
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			ind_color_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = ind_house
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+			ind_house_desc_visible = {
+				AND = {
+					tag = USA
+					check_variable = {
+						var = ind_house
+						value = 0
+						compare = greater_than
+					}
+				}
+			}
+		}
+		effects = {
+			close_button_parliament_click = {
+				IF = {
+					LIMIT = {
+						has_country_flag = open_parliament_gui
+					}
+					clr_country_flag = open_parliament_gui
+				}
+			}
+		}
+	}
+
+}
