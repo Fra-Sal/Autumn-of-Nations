@@ -175,6 +175,10 @@
  SWE_DEMOCRATIC_1991:0 "Moderata samlingspartiet"
  SWE_DEMOCRATIC_1994:0 "Sveriges Socialdemokratiska Arbetareparti"
  SWE_communism_party:0 "Vänsterpartiet"
+ FIN_democratic_party:0 "Kansallinen Kokoomus"
+ FIN_DEMOCRATIC_1991:0 "Suomen Keskusta"
+ FIN_DEMOCRATIC_1995:0 "Suomen sosialidemokraattinen puolue"
+
 
 
  GER_fascism_party:0 "NSDAP"
@@ -286,14 +290,6 @@
  IRQ_neutrality_party:1 "Hashemite Dynasty"
  IRQ_fascism_party:0 "Golden Square"
  IRQ_communism_party:0 "Al-Hizb al-Shiu'iy"
- FIN_neutrality_party:1 "ML"
- FIN_neutrality_party_long:1 "Maalaisliitto"
- FIN_democratic_party:0 "SDP"
- FIN_democratic_party_long:0 "Suomen Sosialidemokraattinen Puolue"
- FIN_fascism_party:0 "IKL"
- FIN_fascism_party_long:0 "Isänmaallinen Kansanliike"
- FIN_communism_party:0 "SKP"
- FIN_communism_party_long:0 "Suomen Kommunistinen Puolue"
  DEN_democratic_party:0 "Socialdemokratiet"
  DEN_democratic_party_long:0 "Socialdemokratiet"
  DEN_fascism_party:0 "DNSAP"
