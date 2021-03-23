@@ -167,7 +167,10 @@
  IRE_DEMOCRATIC_1994:0 "Fine Gael"
  IRE_DEMOCRATIC_1997:0 "Fianna Fáil"
  ENG_democratic_party:0 "Conservative and Unionist Party"
- 
+ NOR_democratic_party:0 "Det norske Arbeiderparti"
+ NOR_DEMOCRATIC_1989:0 "Høyre"
+ NOR_DEMOCRATIC_1990:0 "Det norske Arbeiderparti"
+ NOR_DEMOCRATIC_1997:0 "Kristelig Folkeparti"
 
 
  GER_fascism_party:0 "NSDAP"
@@ -391,14 +394,6 @@
  NZL_fascism_party_long:0 "New Zealand Legion"
  NZL_communism_party:0 "CPNZ"
  NZL_communism_party_long:0 "Communist Party of New Zealand"
- NOR_neutrality_party:0 "Venstre"
- NOR_neutrality_party_long:0 "Venstre"
- NOR_communism_party:0 "NKP"
- NOR_communism_party_long:0 "Norges Kommunistiske Parti"
- NOR_democratic_party:0 "AP"
- NOR_democratic_party_long:0 "Arbeiderpartiet"
- NOR_fascism_party:0 "NS"
- NOR_fascism_party_long:0 "Nasjonal Samling"
  HOL_neutrality_party:1 "NVB"
  HOL_neutrality_party_long:1 "Nederlandse Volksbeweging"
  HOL_communism_party:0 "CPN"
