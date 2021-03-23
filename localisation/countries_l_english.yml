@@ -143,7 +143,9 @@ l_english:
  FIN_democratic:0 "Finland"
  FIN_democratic_DEF:0 "the Republic of Finland"
  FIN_democratic_ADJ:0 "Finnish"
- 
+ POR_democratic:0 "Portugal"
+ POR_democratic_DEF:0 "the Portuguese Republic"
+ POR_democratic_ADJ:0 "Portuguese"
  
 
 
@@ -477,21 +479,6 @@ l_english:
  BUL:0 "Bulgaria"
  BUL_DEF:0 "Bulgaria"
  BUL_ADJ:0 "Bulgarian"
- POR_fascism:0 "Greater Portugal"
- POR_fascism_DEF:0 "Greater Portugal"
- POR_democratic:0 "Portuguese Republic"
- POR_democratic_DEF:0 "the Portuguese Republic"
- POR_neutrality:0 "Portugal"
- POR_neutrality_DEF:0 "Portugal"
- POR_communism:0 "Maximalist Portugal"
- POR_communism_DEF:0 "Maximalist Portugal"
- POR_fascism_ADJ:0 "Portuguese"
- POR_democratic_ADJ:0 "Portuguese"
- POR_neutrality_ADJ:0 "Portuguese"
- POR_communism_ADJ:0 "Portuguese"
- POR:0 "Portugal"
- POR_DEF:0 "Portugal"
- POR_ADJ:0 "Portuguese"
  HUN_fascism:0 "Hungary"
  HUN_fascism_DEF:0 "Hungary"
  HUN_democratic:0 "Republic of Hungary"
