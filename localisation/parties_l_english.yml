@@ -61,6 +61,8 @@
  nationalism_ideology_desc:0 "Nationalism is an idea and movement that promotes the self-governance and the self-determination, maintaining a single national identity, based on shared culture, ethnicity, geographic location, language, politics, religion, traditions and history."
  neofascism:0 "Neo-fascism"
  neofascism_desc:0 "Neo-fascism usually includes ultranationalism, racial supremacy, populism, authoritarianism, nativism, xenophobia and anti-immigration sentiment. These groups can be inspired by Italian fascism, and Spanish Falangism, but also German National Socialism."
+ federal_council:0 "Federal Council"
+ federal_council_desc:0 "The Federal Council is the executive council that constitutes the federal government of the Swiss Confederation and serves as the collective head of state and government."
 
  CAN_democratic_party:0 "Progressive Conservative Party"
  CAN_DEMOCRATIC_1993:0 "Liberal Party of Canada"
@@ -194,6 +196,7 @@
  ITA_communism_party:0 "Partito Comunista Italiano"
  ITA_democratic_party:0 "Democrazia Cristiana"
  ITA_fascism_party:0 "Movimento Sociale Italiano - Destra Nazionale"
+ SWI_democratic_party:0 "Federal Council"
  
  
 
@@ -382,14 +385,6 @@
  BEL_democratic_party_long:0 "Catholic Block"
  BEL_fascism_party:0 "Rex"
  BEL_fascism_party_long:0 "Parti Rexiste"
- SWI_communism_party:0 "KPS"
- SWI_communism_party_long:0 "Kommunistische Partei der Schweiz"
- SWI_democratic_party:0 "Federal Council"
- SWI_democratic_party_long:0 "Federal Council"
- SWI_neutrality_party:0 "FDP"
- SWI_neutrality_party_long:0 "Freisinnig-Demokratische Partei"
- SWI_fascism_party:0 "FB"
- SWI_fascism_party_long:0 "Fronten Bewegung"
  RAJ_neutrality_party:0 "INC"
  RAJ_neutrality_party_long:0 "Indian National Congress"
  RAJ_communism_party:0 "CPI"

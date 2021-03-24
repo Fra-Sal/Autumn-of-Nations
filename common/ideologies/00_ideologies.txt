@@ -26,6 +26,9 @@ ideologies = {
 
 			independent_politician = {
 			}
+
+			federal_council = {
+			}
 		}
 		
 		dynamic_faction_names = {
