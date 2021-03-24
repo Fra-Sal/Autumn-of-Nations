@@ -157,6 +157,9 @@ ideologies = {
 
 			nationalism_ideology = {
 			}
+
+			neofascism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -167,7 +170,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 150 75 0 }
+		color = {  10 10 10  }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0

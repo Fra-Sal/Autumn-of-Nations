@@ -1,0 +1,172 @@
+bookmarks = {
+
+
+	###################################################################
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	##### DON'T DELETE THIS, ALSO EDIT IN the_gathering_storm.txt #####
+	###################################################################
+
+	bookmark = {
+		name = "AUTUMN_OF_NATIONS_NAME"
+		desc = "AUTUMN_OF_NATIONS_DESC"
+		date = 1989.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "SOV"
+		default = yes
+
+		"SOV" = {
+			history = "SOV_AUTUMN_OF_NATIONS_DESC"
+			ideology = communism
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"POL" = {
+			history = "POL_AUTUMN_OF_NATIONS_DESC"
+			ideology = communism
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"WGR" = {
+			history = "WGR_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"USA" = {
+			history = "USA_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"PRC" = { # Communist China
+			history = "PRC_AUTUMN_OF_NATIONS_DESC"
+			ideology = communism
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"YUG" = {
+			history = "YUG_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"SAF" = {
+			history = "SAF_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"ENG" = {
+			history = "ENG_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			minor = yes
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"FRA" = {
+			history = "FRA_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			minor = yes
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+		"ITA" = {
+			history = "ITA_AUTUMN_OF_NATIONS_DESC"
+			ideology = democratic
+			minor = yes
+			ideas = {
+				#vittoria_mutilata
+				#victor_emmanuel
+				#MTG_washigton_naval_treaty_adherent
+			}
+			focuses = {
+				#ITA_pact_of_steel
+				#ITA_spanish_italian_faction
+				#ITA_italy_first
+			}
+		}
+
+		# Required to allow the player to enter the free selection screen
+        "---"={
+			history = "OTHER_AUTUMN_OF_NATIONS_DESC"
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

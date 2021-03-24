@@ -11,8 +11,8 @@
 # 	}
 # }
 
-set_research_slots = 3
-set_stability = 0.5
+set_research_slots = 4
+set_stability = 0.8
 
 
 # Starting tech
@@ -126,7 +126,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 91
+	democratic = 76
+	fascism = 15
 	communism = 9
 }
 
@@ -135,6 +136,15 @@ create_country_leader = {
 	picture = "GFX_Portrait_FRA_francois_mitterrand.dds"
 	expire = "1996.1.8"
 	ideology = socialism
+	#traits = {
+		#
+	#}
+}
+
+create_country_leader = {
+	name = "Jean-Marie Le Pen"
+	expire = "2050.1.1"
+	ideology = nationalism_ideology
 	#traits = {
 		#
 	#}
@@ -157,7 +167,8 @@ create_country_leader = {
 # 		elections_allowed = yes
 # 	}
 # 	set_popularities = {
-# 		democratic = 86
+# 		democratic = 71
+#		fascism = 15
 # 		communism = 14
 # 	}
 	

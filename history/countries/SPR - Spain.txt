@@ -177,7 +177,7 @@ create_country_leader = {
 	name = "Felipe González"
 	picture = "GFX_Portrait_SPR_felipe_gonzalez.dds"
 	expire = "2050.1.1"
-	ideology = marxism
+	ideology = socialism
 	#traits = {
 		#
 	#}
