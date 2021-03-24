@@ -197,7 +197,9 @@
  ITA_democratic_party:0 "Democrazia Cristiana"
  ITA_fascism_party:0 "Movimento Sociale Italiano - Destra Nazionale"
  SWI_democratic_party:0 "Federal Council"
- 
+ LUX_democratic_party:0 "Chrëschtlech Sozial Vollekspartei"
+ LUX_communism_party:0 "Kommunistesch Partei vu Lëtzebuerg"
+ LUX_fascism_party:0 "National Bewegong"
  
 
 
@@ -416,11 +418,6 @@
  SIA_neutrality_party_long:0 "Khana Ratsadon"
  AFG_neutrality_party:0 "Barakzai"
  AFG_neutrality_party_long:0 "Barakzai royal family"
- LUX_democratic_party:0 "Rietspartei"
- LUX_communism_party:0 "KPL"
- LUX_communism_party_long:0 "Kommunistesch Partei Lëtzebuerg"
- LUX_fascism_party:0 "PNI"
- LUX_fascism_party_long:0 "Onofhängeg Nationalpartei"
  BHU_neutrality_party:0 "Wangchuk Dynasty"
  SLO_fascism_party:0 "HSLS"
  SLO_fascism_party_long:0 "Hlinkova Slovenská Ludová Strana"

@@ -1,0 +1,150 @@
+﻿capital = 8
+
+#oob = "LUX_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+# 1939.1.1 = {
+
+# 	add_political_power = 1198
+	
+# 	#generic focuses
+# 	complete_national_focus = army_effort
+# 	complete_national_focus = equipment_effort
+# 	complete_national_focus = motorization_effort
+# 	complete_national_focus = aviation_effort
+# 	complete_national_focus = construction_effort_2
+# 	complete_national_focus = production_effort_2
+# 	complete_national_focus = infrastructure_effort
+# 	complete_national_focus = industrial_effort
+# 	complete_national_focus = construction_effort
+# 	complete_national_focus = production_effort
+	
+# 	oob = "LUX_1939"
+# 	set_technology = {
+# 		tech_recon = 1
+# 		fighter1 = 1
+# 		interwar_artillery = 1
+# 		interwar_antiair = 1
+		
+# 		#doctrines
+# 		air_superiority = 1
+		
+# 		mass_assault = 1
+# 		pocket_defence = 1
+# 		defence_in_depth = 1
+
+# 		#electronics
+# 		electronic_mechanical_engineering = 1
+# 		radio = 1
+# 		radio_detection = 1
+# 		mechanical_computing = 1
+
+# 		#industry
+# 		basic_machine_tools = 1
+# 		improved_machine_tools = 1
+# 		advanced_machine_tools = 1
+# 		fuel_silos = 1
+# 		construction1 = 1
+# 		construction2 = 1
+# 		concentrated_industry = 1
+# 		concentrated_industry2 = 1
+# 	}
+# }
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1984.6.20"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	communism = 4
+}
+
+create_country_leader = {
+	name = "Jacques Santer"
+	picture = "GFX_Portrait_LUX_jacques_santer.dds"
+	expire = "2050.1.1"
+	ideology = christian_democracy
+	#traits = {
+			#
+	#}
+}
+
+create_country_leader = {
+	name = "Jacques Poos"
+	expire = "2050.1.1"
+	ideology = marxism
+	#traits = {
+			#
+	#}
+}
+
+1989.6.19 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1989.6.19"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 96
+		communism = 4
+		fascism = 2
+	}
+	create_country_leader = {
+		name = "Pierre Peters"
+		expire = "2050.1.1"
+		ideology = neofascism
+		#traits = {
+				#
+		#}
+	}
+}
+
+1994.6.13 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1994.6.12"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 96
+		communism = 1
+		fascism = 3
+	}
+}
+
+1994.6.13 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1994.6.12"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 100
+	}
+
+	create_country_leader = {
+		name = "Jean-Claude Juncker"
+		picture = "GFX_Portrait_LUX_jean_claude_juncker.dds"
+		expire = "2050.1.1"
+		ideology = christian_democracy
+		#traits = {
+				#
+		#}
+	}
+}
